@@ -1,5 +1,10 @@
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Rafael Atías</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
     <style>
       h1 {
         color: red;
@@ -8,6 +13,55 @@
     </style>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <header>
+        <h1>Rafael Atías - Portafolio</h1>
+    </header>
+    <article>
+        <p>Aquí encontrarás algunos pequeños proyectos para dominar alguna tecnología en particular. Los proyectos están
+            publicados en <a href="https://www.netlify.com/">Netlify</a> y <a href="https://glitch.com/">Glitch</a></p>
+
+        <section class="proyecto">
+            <h2>Markdown previewer</h2>
+            <p>Se trata de un previsualizador de markdown que funciona con <strong>ReactJS</strong>. La app fue
+                publicada en Netlify</p>
+            <ul class="links">
+                <li>
+                    <p><a href="https://elated-carson-dfc491.netlify.app/">Enlace a la app</a></p>
+                </li>
+                <li>
+                    <p><a href="https://github.com/rafael-atias/markdown-previewer">Enlace al repositorio</a></p>
+                </li>
+            </ul>
+        </section>
+        <section class="proyecto">
+            <h2>Drum Machine</h2>
+            <p>Este otro proyecto lo desarrollé para afianzar el dominio de <strong>ReactJS</strong> y aprender a
+                manejar <strong>SCSS</strong> y la integración continua con tests en <a
+                    href="https://www.circleci.com/">CircleCI</a></p>
+            <ul class="links">
+                <li>
+                    <p><a href="https://dreamy-noether-ef8981.netlify.app/">Enlace a la app</a></p>
+                </li>
+                <li>
+                    <p><a href="https://github.com/rafael-atias/fcc-drum-machine">Enlace al repositorio</a></p>
+                </li>
+            </ul>
+        </section>
+        <section class="proyecto">
+            <h2>Abreviador de urls</h2>
+            <p>Este proyecto lo hice para aprender cómo desarrollar un servidor con Javascript en el backend
+                (<strong>NodeJS con
+                    ExpressJS</strong>) y una base de datos No-SQL (<strong>MongoDB, con MongooseJS</strong> como ORM)
+            </p>
+            <ul class="links">
+                <li>
+                    <p><a href="https://rafael-atias-url-shortener.glitch.me/">Enlace a la app</a></p>
+                </li>
+                <li>
+                    <p><a href="https://github.com/rafael-atias/url-shortener">Enlace al repositorio</a></p>
+                </li>
+            </ul>
+        </section>
+    </article>
   </body>
 </html>
